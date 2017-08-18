@@ -5,6 +5,7 @@ import {HttpModule} from '@angular/http';
 import {AppComponent} from './app.component';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
+
 @NgModule({
     imports: [
         BrowserModule,
@@ -20,4 +21,6 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
     bootstrap: [AppComponent]
 })
 export class AppModule {
+
+
 }

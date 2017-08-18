@@ -1,6 +1,28 @@
-<div class="container">
-    <h1>{{title}}</h1>
-    <p>Este software web é desenvolvido utilizando Angular.</p>
-    <br>
-    <img src="assets/images/angular.svg" width="200">
-</div>
+
+    <div class="container">
+        <h1>{{title}}</h1> 
+        <input type="text" name="visor" id="visor" style='width:155px' placeholder="Resultado" value="{{valor}}">
+        <button type="button" class="btn btn-outline-warning" data-toggle="tooltip" data-placement="right" title="Apagar" (click)="limpar()">C</button>
+        <br>
+        <button type="button" class="btn btn-outline-secondary" (click)="calcNum(7)">7</button>
+        <button type="button" class="btn btn-outline-secondary" (click)="calcNum(8)">8</button>
+        <button type="button" class="btn btn-outline-secondary" (click)="calcNum(9)">9</button>
+        <button type="button" class="btn btn-outline-success" data-toggle="tooltip" data-placement="right" title="Somar" (click)="calcSomar()">+</button>
+        <br>
+        <button type="button" class="btn btn-outline-secondary" (click)="calcNum(4)">4</button>
+        <button type="button" class="btn btn-outline-secondary" (click)="calcNum(5)">5</button>
+        <button type="button" class="btn btn-outline-secondary" (click)="calcNum(6)">6</button>
+        <button type="button" class="btn btn-outline-danger" data-toggle="tooltip" data-placement="right" title="Subtrair" (click)="calcSubtrair()">-</button>
+        <br>
+        <button type="button" class="btn btn-outline-secondary" (click)="calcNum(1)">1</button>
+        <button type="button" class="btn btn-outline-secondary" (click)="calcNum(2)">2</button>
+        <button type="button" class="btn btn-outline-secondary" (click)="calcNum(3)">3</button>
+        <button type="button" class="btn btn-outline-secondary" (click)="calcNum(0)">0</button>
+        <br>
+    </div>
+    <div class="div_igual" >
+        <button type="button" class="btn btn-secondary btn-lg btn-block" data-toggle="tooltip" data-placement="right" title="Calcular" (click)="Resultado()" >=</button>
+    </div>
+
+
+

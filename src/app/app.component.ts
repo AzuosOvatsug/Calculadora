@@ -9,11 +9,30 @@ import '../assets/css/style.css';
 })
 export class AppComponent implements OnInit {
     title: string;
+    valor: Int32Array;
+    resultado = Float64Array;
+    A1 = Float32Array ;
 
     constructor() {
-        this.title = "Aplicativo Web";
+        this.title = "Calculadora do Gustavo";
     }
 
     ngOnInit(): void {
+    }
+    
+    calcNum(num){
+        var aux = this.valor;
+        this.valor = aux+num;
+    }
+    
+    limpar(){
+        this.valor = null
+    }
+    calcSomar(){
+        var aux = this.valor;
+        this.valor = aux;
+    }
+    Resultado(){
+        
     }
 }
