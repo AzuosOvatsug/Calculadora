@@ -4,3 +4,16 @@
     /* margin-left: 400px; */
     margin: 0 0 0 403px;
 }
+
+#button{
+    width:153px;
+    height:45px;
+    margin-top: 1px;
+}
+#visor{
+    width:153px;
+}
+#calc{
+    width:37px;
+    height:37px;
+}
