@@ -17,9 +17,12 @@
         <button type="button" class="btn btn-outline-secondary" (click)="calcNum(1)">1</button>
         <button type="button" class="btn btn-outline-secondary" (click)="calcNum(2)">2</button>
         <button type="button" class="btn btn-outline-secondary" (click)="calcNum(3)">3</button>
-        <button type="button" class="btn btn-outline-secondary" (click)="calcNum(0)">0</button>
+        <button type="button" id="calc" class="btn btn-outline-warning" data-toggle="tooltip" data-placement="right" title="Subtrair" (click)="calcDividir()">/</button>
         <br>
-        <button id="button" type="button" class="btn btn-secondary btn-lg" data-toggle="tooltip" data-placement="right" title="Calcular" (click)="Resultado()" >=</button>
+        <button type="button" class="btn btn-outline-secondary" (click)="calcNum(0)">0</button>
+        <button type="button" id="calc1" class="btn btn-outline-secondary" (click)="calcPorcentagem()">%</button>
+        <button type="button" id="calc1" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Calcular" (click)="Resultado()" >=</button>
+        <button type="button" id="calc" class="btn btn-outline-warning" data-toggle="tooltip" data-placement="right" title="Subtrair" (click)="calcMultiplicar()">x</button>
     </div>
 </div>
 <!--  
