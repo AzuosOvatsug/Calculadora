@@ -85,7 +85,7 @@ export class AppComponent implements OnInit {
             this.aux ="";
         }
     }    
-    
+
     calcDividir(){
         if (this.resultado > 0){
             this.valor = this.resultado
@@ -115,7 +115,7 @@ export class AppComponent implements OnInit {
             this.aux ="";
         }
     }
-        
+
     Resultado(){
         if (this.sinal == "+"){
             this.resultado = (this.valor) + (parseInt(this.aux));
